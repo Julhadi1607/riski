@@ -1,2 +1,42 @@
-hauu
-julhadiii
+Microsoft Windows [Version 10.0.19045.5854]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\laravel\riski>git init
+Initialized empty Git repository in C:/laravel/riski/.git/
+
+C:\laravel\riski>git add .
+
+C:\laravel\riski>git commit -m "first commit"
+[master (root-commit) f14871b] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+C:\laravel\riski>git branch -M main
+
+C:\laravel\riski>git remote add origin https://github.com/Julhadi1607/riski.git
+
+C:\laravel\riski>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 228 bytes | 114.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Julhadi1607/riski.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\laravel\riski>git add .
+
+C:\laravel\riski>git commit -m "seccond commit"
+[main 449c2a5] seccond commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\laravel\riski>git branch -M main
+
+C:\laravel\riski>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 271 bytes | 67.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Julhadi1607/riski.git
+   f14871b..449c2a5  main -> main
+branch 'main' set up to track 'origin/main'.
