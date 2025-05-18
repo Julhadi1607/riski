@@ -40,3 +40,71 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Julhadi1607/riski.git
    f14871b..449c2a5  main -> main
 branch 'main' set up to track 'origin/main'.
+
+C:\laravel\riski>git add .
+
+C:\laravel\riski>git commit -m "tree commit"
+[main f0013de] tree commit
+ 1 file changed, 42 insertions(+), 2 deletions(-)
+
+C:\laravel\riski>git branch -M main
+
+C:\laravel\riski>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 778 bytes | 194.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Julhadi1607/riski.git
+   449c2a5..f0013de  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\laravel\riski>git checkout -b develop
+Switched to a new branch 'develop'
+
+C:\laravel\riski>git push -u origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/Julhadi1607/riski/pull/new/develop
+remote:
+To https://github.com/Julhadi1607/riski.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+C:\laravel\riski>
+
+C:\laravel\riski>git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\laravel\riski>git checkout main
+M       New Text Document.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\laravel\riski>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   New Text Document.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\laravel\riski>git checkout develop
+M       New Text Document.txt
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+C:\laravel\riski>
